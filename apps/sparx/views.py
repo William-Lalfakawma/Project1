@@ -7,3 +7,4 @@ class StudentViewSet(viwesets.ModelViewSet):
     queryset = Student.objects.all
     serializer = StudentSerializer
 
+change example
