@@ -5,5 +5,5 @@ from django.shortcuts import render
 
 class StudentViewSet(viewsets.ModelViewSet):
     queryset = Student.objects.all()
-    serializer = StudentSerializer
+    serializer_class = StudentSerializer
     
